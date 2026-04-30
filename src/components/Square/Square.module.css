@@ -1,0 +1,19 @@
+.square {
+  border: 1px solid #000;
+  color: #080808;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+.light {
+  background-color: rgb(196, 196, 179);
+}
+.dark {
+  background-color: #79470d;
+}
+
+.highlight {
+  background-color: yellow;
+}
