@@ -17,3 +17,11 @@
 .highlight {
   background-color: yellow;
 }
+
+.legalMove {
+  background-color: gray;
+}
+
+.kingCheck {
+  background-color: red;
+}

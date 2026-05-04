@@ -4,7 +4,7 @@ import Board from "../Board/Board";
 import GameInfo from "../GameInfo/GameInfo";
 
 export default function GameContainer() {
-  const { gameState, gameInfo, selectedSquare, selectSquare, startGame } =
+  const { gameState, gameInfo, selectedSquare, selectSquare, selectedLegalMoves, startGame } =
     useChessGame();
   return (
     <div className={styles.gameContainer}>
@@ -13,6 +13,7 @@ export default function GameContainer() {
         gameState={gameState}
         selectedSquare={selectedSquare}
         selectSquare={selectSquare}
+        selectedLegalMoves={selectedLegalMoves}
       />
     </div>
   );
