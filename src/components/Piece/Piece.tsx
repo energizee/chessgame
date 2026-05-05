@@ -1,7 +1,7 @@
-import { Piece as PieceModel, PieceType } from "@/types/chess";
+import { Piece as PieceModel } from "@/types/chess";
 import styles from "./Piece.module.css";
 
-const PIECE_CODE: Record<PieceType, string> = {
+const PIECE_CODE: Record<PieceModel["type"], string> = {
   king: "K",
   queen: "Q",
   rook: "R",

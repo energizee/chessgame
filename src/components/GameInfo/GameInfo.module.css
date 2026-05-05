@@ -1,5 +1,41 @@
 .gameInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 16px;
+  min-width: 200px;
+}
+
+.gameInfo h1 {
+  margin: 0 0 8px;
+  font-size: 1.4rem;
+}
+
+.gameInfo p {
+  margin: 4px 0;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.actions button {
+  padding: 6px 14px;
+  border: 1px solid #444;
+  background: #f3f3f3;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.actions button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.actions button:not(:disabled):hover {
+  background: #e6e6e6;
 }
